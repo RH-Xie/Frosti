@@ -1,6 +1,6 @@
 ---
 title: go-cqhttp最后些日子 ~ 白咕咕复活记
-date: 2023-11-11 23:40:17
+pubDate: 2023-11-11 23:40:17
 tags:
   - 记录
   - go-cqhttp
@@ -8,8 +8,6 @@ tags:
   - nonebot
 categories:
   - tech
-excerpt: 那时候我们都相信，日子会一直这样过下去...
-pubDate: 2023-11-11 23:40:17
 description: 那时候我们都相信，日子会一直这样过下去...
 image: https://images.weserv.nl/?url=s2.loli.net/2023/11/12/xXmRz2WiPVN9Y4S.webp
 ---

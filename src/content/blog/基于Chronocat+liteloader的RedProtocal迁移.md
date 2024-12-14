@@ -1,15 +1,13 @@
 ---
-title: 白咕咕复活记 ~ Jan 2024
-date: 2024-1-21
+title: 基于 Chronocat + liteloader 的 RedProtocal 迁移
+pubDate: 2024-1-21
 tags:
   - 记录
   - qqbot
 categories:
   - tech
-excerpt: Happy to see you again
-slug: chronocat-redprotocal
-pubDate: 2024-1-21
 description: Happy to see you again
+slug: chronocat-redprotocal
 image: https://images.weserv.nl/?url=s2.loli.net/2024/02/15/Byul1j9FKXCNJob.webp
 ---
 
