@@ -24,4 +24,28 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { blog };
+const misc = defineCollection({
+  type: "content",
+  schema: z.object({
+    title: z.string(),
+    pubDate: z.coerce.date(),
+    updated: z.coerce.date().optional(),
+    image: z.string().optional(),
+    badge: z.string().optional(),
+    categories: z
+      .array(z.string())
+      .refine((items) => new Set(items).size === items.length, {
+        message: "categories must be unique",
+      })
+      .optional(),
+    tags: z
+      .array(z.string())
+      .refine((items) => new Set(items).size === items.length, {
+        message: "tags must be unique",
+      })
+      .optional(),
+  }),
+});
+
+
+export const collections = { blog, misc };
